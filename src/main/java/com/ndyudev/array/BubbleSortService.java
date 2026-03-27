@@ -3,15 +3,22 @@ package com.ndyudev.array;
 public interface BubbleSortService {
     /**
      *
-     * @param num1
-     * @param num2
+     * @param arr
+     * @param i
+     * @param j
      */
-    void swap(double num1, double num2);
+    void swap(int[] arr, int i, int j);
+
+    /**
+     *
+     * @return
+     */
+    int[] inputArray();
 
     /**
      *
      * @param arr
      * @return
      */
-    double[] bubbleSort(double[] arr);
+    int[] bubbleSort(int[] arr);
 }
